@@ -9,9 +9,10 @@ import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 
 export default function Home() {
-    // const [name, setName] = useState("John");
-    // const [email, setEmail] = useState("john@john.com");
+    const [name, setName] = useState("John");
+    const [email, setEmail] = useState("john@john.com");
 
+    // Uncomment the following useEffect to add a user to the database on page load
     // useEffect(() => {
     //   const addToDB = async() => {
     //   try {
